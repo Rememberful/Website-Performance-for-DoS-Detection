@@ -4,8 +4,8 @@ import matplotlib.pyplot as plt
 from collections import Counter
 
 # ====== Telegram Config ======
-TELEGRAM_BOT_TOKEN = '7902712032:AAFDD6zWYpbqegcqVyzXewmQ3Yra0M4rmCE'
-TELEGRAM_CHAT_ID = '7413356774'
+TELEGRAM_BOT_TOKEN = ''
+TELEGRAM_CHAT_ID = ''
 
 def send_telegram_alert(message):
     url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
